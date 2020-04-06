@@ -41,7 +41,9 @@ li {
   margin-bottom: 50px;
 }
 .contents-item {
-  float: left;
+  display: inline-block;
+  text-align: center;
+  /* float: left; */
   margin-right: 40px;
 }
 .contents-item a {
