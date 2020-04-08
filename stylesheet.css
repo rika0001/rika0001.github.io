@@ -4,6 +4,10 @@ body {
 li {
   list-style: none;
 }
+.pop {
+  font-family:HG創英角ﾎﾟｯﾌﾟ体;
+}
+
 .header {
   background-color: #fff0f5;
   color: #000000;
