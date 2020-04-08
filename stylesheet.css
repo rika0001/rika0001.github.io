@@ -22,11 +22,12 @@ li {
   padding: 100px 80px;
 }
 .copy-container h1 {
-  /* 140pxから100pxに変更 */
-  font-size: 100px; 
+  /* 100pxから80pxに変更 */
+  font-size: 80px; 
 }
 .copy-container h2 {
-  font-size: 60px;
+  /* 60pxから40pxに変更 */
+  font-size: 40px;
 }
 .copy-container span {
   color: #ff4a4a;
@@ -74,8 +75,8 @@ input, textarea {
 .footer {
   background-color: #975473;
   color: #000000;
-  /* heightを120pxから70pxに変更 */
-  height: 70px;
+  /* heightを70pxから30pxに変更 */
+  height: 30px;
   padding: 40px;
 }
 .footer-logo {
