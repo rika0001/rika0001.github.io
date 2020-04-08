@@ -39,7 +39,8 @@ li {
   border-bottom: 2px solid #dee7ec;
   font-size: 28px;
   padding-bottom: 15px;
-  margin-bottom: 50px;
+  /* nargin-bottomを50pxから10pxに変更 */
+  margin-bottom: 10px;
 }
 .contents-item {
   display: inline-block;
