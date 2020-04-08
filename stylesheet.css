@@ -19,7 +19,8 @@ li {
   padding: 33px 20px;
 }
 .main{
-  padding: 100px 80px;
+  /* paddingの上下を100pxから80pxに変更 */
+  padding: 80px 80px;
 }
 .copy-container h1 {
   /* 100pxから80pxに変更 */
