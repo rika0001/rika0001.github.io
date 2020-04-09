@@ -36,7 +36,7 @@ font-size: 40px;
 color: #ff4a4a;
 }
 .contents {
-height: 500px;
+/* height: 500px;.contentsのheightが固定されてしまうため */
 margin-top: 100px;
 }
 .section-title {
