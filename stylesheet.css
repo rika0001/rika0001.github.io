@@ -80,7 +80,7 @@ input, textarea {
   color: #000000;
   /* heightを70pxから30pxに変更 */
   height: 30px;
-  padding: 40px;
+  padding: 10px;
 }
 .footer-logo {
   float: left;
