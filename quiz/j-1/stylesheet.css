@@ -1,3 +1,84 @@
+.main{
+/* paddingの左右を60pxから40pxに変更 */
+padding: 60px 60px;
+}
+.copy-container h1 {
+/* 100pxから80pxに変更 */
+font-size: 50px; 
+}
+.copy-container h2 {
+/* 60pxから40pxに変更 */
+font-size: 40px;
+}
+.copy-container span {
+color: #ff4a4a;
+}
+.contents {
+/* height: 500px;.contentsのheightが固定されてしまうため */
+margin-top: 100px;
+}
+.section-title {
+border-bottom: 2px solid #dee7ec;
+font-size: 28px;
+padding-bottom: 15px;
+/* nargin-bottomを50pxから10pxに変更 */
+margin-bottom: 10px;
+}
+.contents-item {
+display: inline-block;
+text-align: left;
+/* float: left; */
+/* margin-right: 40px; */
+margin-bottom: 70px;
+}
+.contents-item a {
+font-size: 40px;
+margin-top: 30px;
+}
+.syousai {
+  font-size: 30px;
+}
+.contents-item p {
+font-size: 50px;
+margin-top: 30px;
+}
+.hitokoto p {
+  font-size: 30px;
+  margin-top: 30px;
+}
+.contact-form {
+padding-top: 200px;
+}
+input, textarea {
+width: 400px;
+margin-top: 10px;
+margin-bottom: 30px;
+padding: 20px;
+font-size: 18px;
+border: 1px solid #dee7ec;
+}
+.contact-submit {
+background-color: #dee7ec;
+color: #889eab;
+}
+.footer {
+background-color: #975473;
+color: #000000;
+/* heightを70pxから30pxに変更 */
+height: 100px;
+padding: 40px;
+}
+.footer-logo {
+float: left;
+font-size: 32px;
+}
+.footer-list {
+float: right;
+}
+.footer-list li {
+padding-bottom: 20px;
+}
+
 /* クイズのすべてを管理する親要素 */
 .quiz_area{
     position: relative;
