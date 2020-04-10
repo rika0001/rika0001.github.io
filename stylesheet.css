@@ -21,12 +21,12 @@ float: left;
 padding: 33px 20px;
 }
 .main{
-/* paddingの左右を60pxから40pxに変更 */
-padding: 60px 60px;
+/* paddingの上下を100pxから80pxに変更 */
+padding: 80px 80px 80px 80px;
 }
 .copy-container h1 {
 /* 100pxから80pxに変更 */
-font-size: 50px; 
+font-size: 80px; 
 }
 .copy-container h2 {
 /* 60pxから40pxに変更 */
@@ -87,7 +87,7 @@ color: #889eab;
 background-color: #975473;
 color: #000000;
 /* heightを70pxから30pxに変更 */
-height: 100px;
+height: 30px;
 padding: 40px;
 }
 .footer-logo {

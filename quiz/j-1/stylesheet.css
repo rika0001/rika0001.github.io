@@ -1,10 +1,32 @@
+body {
+  /* font-family: "HG創英角ﾎﾟｯﾌﾟ体" */
+font-family: "Avenir Next"
+}
+li {
+list-style: none;
+}
+
+.header {
+background-color: #fff0f5;
+color: #000000;
+height: 100px;
+}
+.header-logo{
+float: left;
+font-size: 36px;
+padding: 20px 40px;
+}
+.header-list li {
+float: left;
+padding: 33px 20px;
+}
 .main{
-/* paddingの左右を60pxから40pxに変更 */
-padding: 60px 60px;
+/* paddingの上下を100pxから80pxに変更 */
+padding: 80px 80px 80px 80px;
 }
 .copy-container h1 {
 /* 100pxから80pxに変更 */
-font-size: 50px; 
+font-size: 80px; 
 }
 .copy-container h2 {
 /* 60pxから40pxに変更 */
@@ -65,7 +87,7 @@ color: #889eab;
 background-color: #975473;
 color: #000000;
 /* heightを70pxから30pxに変更 */
-height: 100px;
+height: 30px;
 padding: 40px;
 }
 .footer-logo {
@@ -77,24 +99,4 @@ float: right;
 }
 .footer-list li {
 padding-bottom: 20px;
-}
-
-/* クイズのすべてを管理する親要素 */
-.quiz_area{
-    position: relative;
-}
-
-/* 回答後に上に被せてタップできなくするための要素（デフォルト非表示、回答後に一時的に表示） */
-.quiz_area .quiz_area_bg{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 999;
-    background: rgba(0, 0, 0, 0.3);
-    display: none;
-    color: #FFF;
-    text-align: center;
 }
